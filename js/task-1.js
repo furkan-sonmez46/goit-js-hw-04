@@ -1,6 +1,6 @@
 function isEnoughCapacity(products, containerSize) {
     const valuesProducts = Object.values(products);
-    let totalFruits = 0
+    let totalFruits = 0;
 
 for (const value of valuesProducts) {
      totalFruits += value;
